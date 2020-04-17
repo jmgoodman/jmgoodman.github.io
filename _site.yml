@@ -1,0 +1,26 @@
+name: "Dog"
+output_dir: "."
+navbar:
+  title: "Dog"
+  left:
+    - text: "Dog?"
+      href: dog_inquisitive.html
+    - text: "Dog!"
+      href: dog_assertive.html
+    - text: "Puppy!"
+      href: puppy.html
+    - text: "Cat >:("
+      href: kitty.html
+  right:
+    - icon: fa-envelope fa-lg
+      href: http://www.gmail.com
+    - icon: fa-github fa-lg
+      href: http://github.com
+    - icon: fa-twitter fa-lg
+      href: https://twitter.com
+    - icon: fa-linkedin fa-lg
+      href: https://www.linkedin.com
+output:
+  html_document:
+    theme: paper
+    css: 'styles.css'
