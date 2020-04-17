@@ -22,5 +22,4 @@ navbar:
       href: https://www.linkedin.com/in/james-goodman-b1145a18/
 output:
   html_document:
-    theme: paper
     css: 'styles.css'
