@@ -7,7 +7,6 @@
 <meta charset="utf-8" />
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="generator" content="pandoc" />
-<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
 
@@ -87,6 +86,7 @@ code {
 }
 img {
   max-width:100%;
+  height: auto;
 }
 .tabbed-pane {
   padding-top: 12px;
@@ -247,6 +247,18 @@ $(document).ready(function () {
 }
 </style>
 
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
 <!-- code folding -->
 
 
@@ -270,12 +282,12 @@ $(document).ready(function () {
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="index.html">Emily C. Zabor</a>
+      <a class="navbar-brand" href="index.html">James Goodman</a>
     </div>
     <div id="navbar" class="navbar-collapse collapse">
       <ul class="nav navbar-nav">
         <li>
-  <a href="research.html">Writing</a>
+  <a href="research.html">Research</a>
 </li>
 <li>
   <a href="talks.html">Speaking</a>
@@ -295,19 +307,19 @@ $(document).ready(function () {
   </a>
 </li>
 <li>
-  <a href="http://github.com/zabore">
+  <a href="http://github.com/jmgoodman">
     <span class="fa fa-github fa-lg"></span>
      
   </a>
 </li>
 <li>
-  <a href="https://twitter.com/zabormetrics">
+  <a href="https://twitter.com/jimmy_m_goode">
     <span class="fa fa-twitter fa-lg"></span>
      
   </a>
 </li>
 <li>
-  <a href="https://www.linkedin.com/in/emily-zabor-59b902b7/">
+  <a href="https://www.linkedin.com/in/james-goodman-b1145a18/">
     <span class="fa fa-linkedin fa-lg"></span>
      
   </a>
@@ -327,7 +339,7 @@ $(document).ready(function () {
 
 <p><link rel="stylesheet" href="styles.css" type="text/css"></p>
 <p>I’d love to hear from you, so feel free to reach out:</p>
-<p>Cleveland Clinic<br> 9500 Euclid Ave<br> Cleveland, OH 44195<br> 646-888-8299<br> <a href="mailto:zabore2@ccf.org" class="email">zabore2@ccf.org</a><br></p>
+<p>James Goodman<br> Deutsches Primatenzentrum<br> Abteilung Neurobiologie<br> Kellnerweg 4<br> Göttingen 37075<br> Deutschland<br> +49 551 3851-425<br> <a href="mailto:jmgoodman@dpz.eu">jmgoodman@dpz.eu</a><br></p>
 <p>Or connect with me on GitHub, Twitter, or Linkedin (links in top right).</p>
 
 
@@ -347,23 +359,6 @@ $(document).ready(function () {
 
 
 </script>
-
-<!-- tabsets -->
-
-<script>
-$(document).ready(function () {
-  window.buildTabsets("TOC");
-});
-
-$(document).ready(function () {
-  $('.tabset-dropdown > .nav-tabs > li').click(function () {
-    $(this).parent().toggleClass('nav-tabs-open')
-  });
-});
-</script>
-
-<!-- code folding -->
-
 
 <!-- dynamically load mathjax for compatibility with self-contained -->
 <script>

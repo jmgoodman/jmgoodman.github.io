@@ -5,8 +5,5 @@
 
 ## Github packages
 
-- [`riskclustr`](https://cran.r-project.org/web/packages/riskclustr/index.html), a package of functions for the study of etiologic heterogeneity
-- [`ezfun`](https://github.com/zabore/ezfun), a package of personal utility functions to generate tables for use in R Markdown reports
-- [`condsurv`](https://github.com/zabore/condsurv), a package for conditional survival analysis
-
+[`Under Construction`](https://www.google.com/), a sample entry for me to fill in with content later. (Link currently just takes you to google.com).
 

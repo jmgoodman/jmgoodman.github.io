@@ -7,7 +7,6 @@
 <meta charset="utf-8" />
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="generator" content="pandoc" />
-<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
 
@@ -87,6 +86,7 @@ code {
 }
 img {
   max-width:100%;
+  height: auto;
 }
 .tabbed-pane {
   padding-top: 12px;
@@ -247,6 +247,18 @@ $(document).ready(function () {
 }
 </style>
 
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
 <!-- code folding -->
 
 
@@ -270,12 +282,12 @@ $(document).ready(function () {
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="index.html">Emily C. Zabor</a>
+      <a class="navbar-brand" href="index.html">James Goodman</a>
     </div>
     <div id="navbar" class="navbar-collapse collapse">
       <ul class="nav navbar-nav">
         <li>
-  <a href="research.html">Writing</a>
+  <a href="research.html">Research</a>
 </li>
 <li>
   <a href="talks.html">Speaking</a>
@@ -295,19 +307,19 @@ $(document).ready(function () {
   </a>
 </li>
 <li>
-  <a href="http://github.com/zabore">
+  <a href="http://github.com/jmgoodman">
     <span class="fa fa-github fa-lg"></span>
      
   </a>
 </li>
 <li>
-  <a href="https://twitter.com/zabormetrics">
+  <a href="https://twitter.com/jimmy_m_goode">
     <span class="fa fa-twitter fa-lg"></span>
      
   </a>
 </li>
 <li>
-  <a href="https://www.linkedin.com/in/emily-zabor-59b902b7/">
+  <a href="https://www.linkedin.com/in/james-goodman-b1145a18/">
     <span class="fa fa-linkedin fa-lg"></span>
      
   </a>
@@ -326,11 +338,12 @@ $(document).ready(function () {
 
 
 <p><link rel="stylesheet" href="styles.css" type="text/css"></p>
-<p><img src="images/emily_2.jpg" style="width:25%; border:10px solid; margin-right: 20px" align="left"></p>
-<p>My interest is in using data as a tool to answer research questions and test hypotheses. I recently joined the biostatistics faculty at Cleveland Clinic in the <a href="https://www.lerner.ccf.org/qhs/zabor/">Department of Quantitative Health Sciences</a> with a joint appointment in the Taussig Cancer Institute. Previously, I worked for nine years as a research biostatistician at Memorial Sloan Kettering Cancer Center in the Department of Epidemiology &amp; Biostatistics, where I worked primarily in breast and urologic cancers.</p>
-<p>I graduated from the University of Minnesota with a MS in biostatistics in 2010 and from Columbia University with a DrPH in biostatistics in 2019.</p>
-<p>I am an avid R enthusiast and an active member of <a href="https://rladies.org/">R Ladies</a>.</p>
-<p>My full CV is available <a href="files/Zabor_Emily_CV.pdf">here</a>.</p>
+<p><img src="images/two-yellow-labrador-retriever-puppies-1108099.jpg" style="width:37%; border:10px solid; margin-right: 20px" align="left"></p>
+<p>I am a systems neuroscientist investigating how the brain controls the movements of our hands. I work as a post-doctoral researcher in the <a href="https://www.dpz.eu/en/unit/neurobiology.html">Department of Neurobiology</a> (Abteilung Neurobiologie) at the <a href="https://www.dpz.eu/en/home.html">German Primate Center</a> (Deutsches Primatenzentrum) in the lab of Hans Scherberger. I am currently researching the topic of “Mirror neurons” and their contribution, at the single-neuronal and population levels, to the neural processing underlying grasping movements.</p>
+<p>I received my Ph.D. in December 2018 from the University of Chicago, where I worked in the laboratory of <a href="http://bensmaialab.org/">Sliman Bensmaia</a> on the postural nature of the representation of hand in the proprioceptive somatosensory and primary motor cortices.</p>
+<p>I graduated from Drexel University in 2013 with a BS and MS in Biomedical Engineering.</p>
+<p>My full CV is available <a href="files/JMG_CV_2020_04_15.pdf">here</a>.</p>
+<p>The image of dogs is a placeholder. Credit where it’s due, though: <a href="https://www.pexels.com/photo/two-yellow-labrador-retriever-puppies-1108099/">Photo by Chevanon Photography from Pexels</a></p>
 
 
 
@@ -349,23 +362,6 @@ $(document).ready(function () {
 
 
 </script>
-
-<!-- tabsets -->
-
-<script>
-$(document).ready(function () {
-  window.buildTabsets("TOC");
-});
-
-$(document).ready(function () {
-  $('.tabset-dropdown > .nav-tabs > li').click(function () {
-    $(this).parent().toggleClass('nav-tabs-open')
-  });
-});
-</script>
-
-<!-- code folding -->
-
 
 <!-- dynamically load mathjax for compatibility with self-contained -->
 <script>

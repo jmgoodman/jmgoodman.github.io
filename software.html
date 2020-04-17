@@ -7,7 +7,6 @@
 <meta charset="utf-8" />
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="generator" content="pandoc" />
-<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
 
@@ -87,6 +86,7 @@ code {
 }
 img {
   max-width:100%;
+  height: auto;
 }
 .tabbed-pane {
   padding-top: 12px;
@@ -247,6 +247,18 @@ $(document).ready(function () {
 }
 </style>
 
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
 <!-- code folding -->
 
 
@@ -270,12 +282,12 @@ $(document).ready(function () {
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="index.html">Emily C. Zabor</a>
+      <a class="navbar-brand" href="index.html">James Goodman</a>
     </div>
     <div id="navbar" class="navbar-collapse collapse">
       <ul class="nav navbar-nav">
         <li>
-  <a href="research.html">Writing</a>
+  <a href="research.html">Research</a>
 </li>
 <li>
   <a href="talks.html">Speaking</a>
@@ -295,19 +307,19 @@ $(document).ready(function () {
   </a>
 </li>
 <li>
-  <a href="http://github.com/zabore">
+  <a href="http://github.com/jmgoodman">
     <span class="fa fa-github fa-lg"></span>
      
   </a>
 </li>
 <li>
-  <a href="https://twitter.com/zabormetrics">
+  <a href="https://twitter.com/jimmy_m_goode">
     <span class="fa fa-twitter fa-lg"></span>
      
   </a>
 </li>
 <li>
-  <a href="https://www.linkedin.com/in/emily-zabor-59b902b7/">
+  <a href="https://www.linkedin.com/in/james-goodman-b1145a18/">
     <span class="fa fa-linkedin fa-lg"></span>
      
   </a>
@@ -328,11 +340,7 @@ $(document).ready(function () {
 <p><link rel="stylesheet" href="styles.css" type="text/css"></p>
 <div id="github-packages" class="section level2">
 <h2>Github packages</h2>
-<ul>
-<li><a href="https://cran.r-project.org/web/packages/riskclustr/index.html"><code>riskclustr</code></a>, a package of functions for the study of etiologic heterogeneity</li>
-<li><a href="https://github.com/zabore/ezfun"><code>ezfun</code></a>, a package of personal utility functions to generate tables for use in R Markdown reports</li>
-<li><a href="https://github.com/zabore/condsurv"><code>condsurv</code></a>, a package for conditional survival analysis</li>
-</ul>
+<p><a href="https://www.google.com/"><code>Under Construction</code></a>, a sample entry for me to fill in with content later. (Link currently just takes you to google.com).</p>
 </div>
 
 
@@ -352,23 +360,6 @@ $(document).ready(function () {
 
 
 </script>
-
-<!-- tabsets -->
-
-<script>
-$(document).ready(function () {
-  window.buildTabsets("TOC");
-});
-
-$(document).ready(function () {
-  $('.tabset-dropdown > .nav-tabs > li').click(function () {
-    $(this).parent().toggleClass('nav-tabs-open')
-  });
-});
-</script>
-
-<!-- code folding -->
-
 
 <!-- dynamically load mathjax for compatibility with self-contained -->
 <script>

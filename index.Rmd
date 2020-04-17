@@ -3,14 +3,16 @@
 
 <link rel="stylesheet" href="styles.css" type="text/css">
 
-<img src="images/emily_2.jpg" style="width:25%; border:10px solid; margin-right: 20px" align="left">
+<img src="images/two-yellow-labrador-retriever-puppies-1108099.jpg" style="width:37%; border:10px solid; margin-right: 20px" align="left">
 
-My interest is in using data as a tool to answer research questions and test hypotheses. I recently joined the biostatistics faculty at Cleveland Clinic in the [Department of Quantitative Health Sciences](https://www.lerner.ccf.org/qhs/zabor/) with a joint appointment in the Taussig Cancer Institute. Previously, I worked for nine years as a research biostatistician  at Memorial Sloan Kettering Cancer Center in the Department of Epidemiology & Biostatistics, where I worked primarily in breast and urologic cancers.
+I am a systems neuroscientist investigating how the brain controls the movements of our hands. I work as a post-doctoral researcher in the [Department of Neurobiology](https://www.dpz.eu/en/unit/neurobiology.html) (Abteilung Neurobiologie) at the [German Primate Center](https://www.dpz.eu/en/home.html) (Deutsches Primatenzentrum) in the lab of Hans Scherberger. I am currently researching the topic of "Mirror neurons" and their contribution, at the single-neuronal and population levels, to the neural processing underlying grasping movements.
 
-I graduated from the University of Minnesota with a MS in biostatistics in 2010 and from Columbia University with a DrPH in biostatistics in 2019.
+I received my Ph.D. in December 2018 from the University of Chicago, where I worked in the laboratory of [Sliman Bensmaia](http://bensmaialab.org/) on the postural nature of the representation of hand in the proprioceptive somatosensory and primary motor cortices. 
 
-I am an avid R enthusiast and an active member of [R Ladies](https://rladies.org/). 
+I graduated from Drexel University in 2013 with a BS and MS in Biomedical Engineering.
 
-My full CV is available [here](files/Zabor_Emily_CV.pdf).
+My full CV is available [here](files/JMG_CV_2020_04_15.pdf).
+
+The image of dogs is a placeholder. Credit where it's due, though: [Photo by Chevanon Photography from Pexels](https://www.pexels.com/photo/two-yellow-labrador-retriever-puppies-1108099/)
 
 
