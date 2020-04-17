@@ -22,5 +22,8 @@ navbar:
       href: https://www.linkedin.com/in/james-goodman-b1145a18/
 output:
   html_document:
-    theme: paper
+    theme: darkly
     css: 'styles.css'
+
+
+# 'arg' should be one of "default", "cerulean", "journal", "flatly", "darkly", "readable", "spacelab", "united", "cosmo", "lumen", "paper", "sandstone", "simplex", "yeti"
