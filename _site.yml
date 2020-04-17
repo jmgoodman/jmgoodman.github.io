@@ -17,9 +17,9 @@ navbar:
     - icon: fa-github fa-lg
       href: http://github.com
     - icon: fa-twitter fa-lg
-      href: https://twitter.com
+      href: https://twitter.com/jimmy_m_goode
     - icon: fa-linkedin fa-lg
-      href: https://www.linkedin.com
+      href: https://www.linkedin.com/in/james-goodman-b1145a18/
 output:
   html_document:
     theme: paper
