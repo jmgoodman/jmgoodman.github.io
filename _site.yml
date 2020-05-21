@@ -1,9 +1,9 @@
 name: "James Goodman"
 output_dir: "."
 navbar:
-  title: "James Goodman: Neuroscientist"
+  title: "James Goodman"
   left:
-    - text: "Curriculum Vitae (CV)"
+    - text: "CV"
       href: files/JMG_CV_2020_05_21.pdf
     - text: "Publications"
       href: pubs.html
@@ -12,9 +12,9 @@ navbar:
     - text: "Contact"
       href: contact.html
   right:
-    - text: "Google Scholar"
+    - icon: ai-google-scholar ai-lg
       href: https://scholar.google.com/citations?user=YHyy1UYAAAAJ&hl=en
-    - text: "Twitter"
+    - icon: fa-twitter fa-lg
       href: https://twitter.com/jimmy_m_goode
 output:
   html_document:
