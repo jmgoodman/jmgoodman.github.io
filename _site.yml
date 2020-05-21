@@ -1,25 +1,21 @@
 name: "James Goodman"
 output_dir: "."
 navbar:
-  title: "James Goodman"
+  title: "James Goodman: Neuroscientist"
   left:
-    - text: "Research"
-      href: research.html
-    - text: "Speaking"
-      href: talks.html
-    - text: "Programming"
-      href: software.html
-    - text: "Teaching"
-      href: teaching.html
-  right:
-    - icon: fa-envelope fa-lg
+    - text: "Curriculum Vitae (CV)"
+      href: files/JMG_CV_2020_05_21.pdf
+    - text: "Publications"
+      href: pubs.html
+    - text: "Conference Presentations"
+      href: conf.html
+    - text: "Contact"
       href: contact.html
-    - icon: fa-github fa-lg
-      href: http://github.com/jmgoodman
-    - icon: fa-twitter fa-lg
+  right:
+    - text: "Google Scholar"
+      href: https://scholar.google.com/citations?user=YHyy1UYAAAAJ&hl=en
+    - text: "Twitter"
       href: https://twitter.com/jimmy_m_goode
-    - icon: fa-linkedin fa-lg
-      href: https://www.linkedin.com/in/james-goodman-b1145a18/
 output:
   html_document:
     theme: darkly

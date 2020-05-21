@@ -1,0 +1,24 @@
+---
+title: "Conference Presentations"
+output: html_document
+---
+
+<link rel="stylesheet" href="styles.css" type="text/css">
+
+<br>
+<h4>Talks</h4>
+<b>Goodman, J. M.</b>, Suresh, A.K., Okorokova, E.V., Hatsopoulos, N.G., & Bensmaia, S.J. (October 2019). Primary motor cortex does not exhibit orderly dynamics during grasp. Nanosymposium talk. Society for Neuroscience, Chicago, IL [Abstracts of the Society for Neuroscience 49: 722.08] ([link to SfN program abstract](https://www.abstractsonline.com/pp8/#!/7883/presentation/65658))<br><br>
+<br>
+
+<h4>Posters</h4>
+<b>Goodman, J. M.</b>, Lee, A.S., Okorokova, E.V., Suresh, A.K., Hatsopoulos, N.G., & Bensmaia, S.J. (November 2018). Neurons in somatosensory and motor cortices encode hand postures, not joint velocities. Poster. Society for Neuroscience, San Diego, CA [Abstracts of the Society for Neuroscience 48: 310.12] ([link to SfN program abstract](https://www.abstractsonline.com/pp8/#!/4649/presentation/2223))<br><br>
+
+<b>Goodman, J. M.</b>, Lee, A.S., Suresh, A.K., Hatsopoulos, N.G., & Bensmaia, S.J. (May 2018). The representation of hand postures and movements in somatosensory cortex. Poster. Janelia conference on the Mechanisms of Dexterous Behavior, Ashburn, VA ([link to conference website](https://www.janelia.org/you-janelia/conferences/mechanisms-dexterous-behavior)) ([abstract](abstract_janelia.html))<br><br>
+
+<b>Goodman, J. M.</b>, Tabot, G.A., Suresh, A.K., Hatsopoulos, N.G., & Bensmaia, S.J. (May 2017). No evidence for hand synergies in sensorimotor cortices of macaques. Poster. Meeting of the Society for the Neural Control of Movement (NCM), Dublin, Ireland. ([link to conference website](https://ncm-society.org/meeting-history/)) ([abstract](abstract_ncm.html))<br><br>
+
+<b>Goodman, J. M.</b>, Tabot, G.A., Suresh, A.K., Hatsopoulos, N.G., & Bensmaia, S.J. (November 2016). High-dimensional representation of hand movements in sensory and motor cortices. Poster. Society for Neuroscience, San Diego, CA [Abstracts of the Society for Neuroscience 46: 151.11] ([link to SfN program abstract](https://www.abstractsonline.com/pp8/index.html#!/4071/presentation/18558))<br><br>
+
+<b>Goodman, J. M.</b>, Tabot, G.A., Rajan, A.S., Suresh, A.K., Hatsopoulos, N.G., & Bensmaia, S.J. (October 2015). Do proprioceptive neurons in somatosensory cortex encode muscle length? Poster. Society for Neuroscience, Chicago, IL [Abstracts of the Society for Neuroscience 45: 706.22] ([link to SfN program abstract](https://www.abstractsonline.com/Plan/ViewAbstract.aspx?sKey=8f4e9605-764e-4cdf-9ce4-aeaeb37f00da&cKey=758e5fa6-12e3-4516-84d8-b0b4893bdf96&mKey=%7bD0FF4555-8574-4FBB-B9D4-04EEC8BA0C84%7d))<br><br>
+
+<b>Goodman, J. M.</b>, Lieber, J.D., Saal, H.P., & Bensmaia, S.J. (November 2014). Spatial variation of simulated slowly adapting type 1 afferent responses to embossed dot patterns predicts perceived roughness. Poster. Society for Neuroscience, Washington, D.C. [Abstracts of the Society for Neuroscience 44: 441.16] ([link to SfN program abstract](https://www.abstractsonline.com/Plan/ViewAbstract.aspx?sKey=d2d5f234-0ab5-4eb3-9400-51d2702c1327&cKey=5f54a8fe-aa44-47a3-97b2-1bcad3dfa5be&mKey=%7b54C85D94-6D69-4B09-AFAA-502C0E680CA7%7d))<br>

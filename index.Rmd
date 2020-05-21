@@ -1,18 +1,17 @@
 ---
+title: "James Goodman: Neuroscientist"
+output: html_document
 ---
 
 <link rel="stylesheet" href="styles.css" type="text/css">
 
-<img src="images/two-yellow-labrador-retriever-puppies-1108099.jpg" style="width:40%; border:10px solid; margin-right: 20px" align="left">
+<!--<img src="images/two-yellow-labrador-retriever-puppies-1108099.jpg" style="width:40%; border:10px solid; margin-right: 20px" align="left">-->
 
-I am a systems neuroscientist investigating how the brain controls the movements of our hands. I work as a post-doctoral researcher in the [Department of Neurobiology](https://www.dpz.eu/en/unit/neurobiology.html) (Abteilung Neurobiologie) at the [German Primate Center](https://www.dpz.eu/en/home.html) (Deutsches Primatenzentrum) in the lab of Hans Scherberger. I am currently researching the topic of "Mirror neurons" and their contribution, at the single-neuronal and population levels, to the neural processing underlying grasping movements.
+<br>
+I am a neuroscientist interested in how the brain controls the movements of our hands and the role of sensory information in shaping those movements.<br><br>
 
-I received my Ph.D. in Computational Neuroscience in December 2018 from the University of Chicago, where I worked in the laboratory of [Sliman Bensmaia](http://bensmaialab.org/) on the postural nature of the representation of hand in the proprioceptive somatosensory and primary motor cortices. 
+I work as a post-doctoral researcher at the [German Primate Center](https://www.dpz.eu/en/home.html) (Deutsches Primatenzentrum) in the Neurobiology Laboratory headed by [Hans Scherberger](https://www.dpz.eu/en/unit/neurobiology.html). I am currently researching the topic of "Mirror Neurons" and their contribution, at the single-neuronal and population levels, to the neural processing underlying grasping.<br><br>
 
-I graduated from Drexel University in 2013 with a BS and MS in Biomedical Engineering.
+I received my Ph.D. in Computational Neuroscience in December 2018 from the University of Chicago, where I worked in the laboratory headed by [Sliman Bensmaia](http://bensmaialab.org/). I studied grasping, the cortical signals related to proprioception and motor control of the hand, and the perception of touch and proprioception in the hands.<br><br>
 
-My full CV is available [here](files/JMG_CV_2020_04_15.pdf).
-
-The image of dogs is a placeholder. Credit where it's due, though: [Photo by Chevanon Photography from Pexels](https://www.pexels.com/photo/two-yellow-labrador-retriever-puppies-1108099/)
-
-This site is also built by using the site of [Emily Zabor](http://www.emilyzabor.com/) as a template and simply changing the data to reflect my own identity. So if the site looks similar or you see remnants of elements that are related to her, that's why.
+I graduated from Drexel University in 2013 with a BS and MS in Biomedical Engineering. There, I worked in the laboratory headed by [Karen Moxon ](https://moxonlab.bme.ucdavis.edu/) (currently UC Davis) on the feasibility of using epidural spinal cord stimulation in brain-computer interface applications.<br>
