@@ -4,6 +4,8 @@ output: html_document
 ---
 
 <link rel="stylesheet" href="styles.css" type="text/css">
+<link rel="stylesheet" href="./css/academicons.min.css"/>
+
 
 <br>
 <h4>First Author Publications</h4>

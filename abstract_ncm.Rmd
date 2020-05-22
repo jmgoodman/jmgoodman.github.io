@@ -2,6 +2,10 @@
 title: "No evidence for hand synergies in sensorimotor cortices of macaques"
 output: html_document
 ---
+
+<link rel="stylesheet" href="styles.css" type="text/css">
+<link rel="stylesheet" href="./css/academicons.min.css"/>
+
 <br>
 <h4>Authors</h4>
 <b>Goodman, J. M.</b><br>
