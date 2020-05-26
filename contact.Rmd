@@ -7,7 +7,7 @@ output: html_document
 <link rel="stylesheet" href="./css/academicons.min.css"/>
 
 <br>
-Please feel free to reach out if you would like to discuss my work or neuroscience-related matters more generally.<br><br>
+Here's how you can reach out to me:<br><br>
 <br>
 
 <h4>Office Mail</h4>
