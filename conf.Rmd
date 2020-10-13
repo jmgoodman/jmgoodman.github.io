@@ -13,6 +13,8 @@ output: html_document
 <br>
 
 <h4>Posters</h4>
+<b>Goodman, J. M.</b>, Schaffelhofer, S., & Scherberger, H. (October 2020). Population-level signatures of action and observation in the frontoparietal grasping network. Virtual Poster. Bernstein Conference, Online. ([link to Bernstein Conference program abstract](https://abstracts.g-node.org/conference/BC20/abstracts#/uuid/4edb7e77-9c07-4db7-869b-ebff5ac0d02d))<br><br>
+
 <b>Goodman, J. M.</b>, Lee, A.S., Okorokova, E.V., Suresh, A.K., Hatsopoulos, N.G., & Bensmaia, S.J. (November 2018). Neurons in somatosensory and motor cortices encode hand postures, not joint velocities. Poster. Society for Neuroscience, San Diego, CA [Abstracts of the Society for Neuroscience 48: 310.12] ([link to SfN program abstract](https://www.abstractsonline.com/pp8/#!/4649/presentation/2223))<br><br>
 
 <b>Goodman, J. M.</b>, Lee, A.S., Suresh, A.K., Hatsopoulos, N.G., & Bensmaia, S.J. (May 2018). The representation of hand postures and movements in somatosensory cortex. Poster. Janelia conference on the Mechanisms of Dexterous Behavior, Ashburn, VA ([link to conference website](https://www.janelia.org/you-janelia/conferences/mechanisms-dexterous-behavior)) ([abstract](abstract_janelia.html))<br><br>
