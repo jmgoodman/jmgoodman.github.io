@@ -12,7 +12,7 @@ output: html_document
 <br>
 I am a neuroscientist interested in how the brain controls the movements of our hands and the role of sensory information in shaping those movements.<br><br>
 
-I work as a post-doctoral researcher at the [German Primate Center](https://www.dpz.eu/en/home.html) (Deutsches Primatenzentrum) in the Neurobiology Laboratory headed by [Hans Scherberger](https://www.dpz.eu/en/unit/neurobiology.html). I am currently researching neural activity in the fronto-parietal cortical grasping network, at both the single-neuron and population levels, when performing hand movements and during observation of others' hand movements.<br><br>
+I work as a post-doctoral researcher at the [German Primate Center](https://www.dpz.eu/en/home.html) (Deutsches Primatenzentrum) in the Neurobiology Laboratory headed by [Hans Scherberger](https://www.dpz.eu/en/unit/neurobiology.html). I am currently studying the topic of motor simulation &mdash; the putative replay of movement-related activity patterns that can occur even when we don't move. I am studying this in the fronto-parietal cortical grasping network using a variety of different analytical frameworks.<br><br>
 
 I received my Ph.D. in Computational Neuroscience in December 2018 from the University of Chicago, where I worked in the laboratory headed by [Sliman Bensmaia](http://bensmaialab.org/). I studied grasping, the cortical signals related to proprioception and motor control of the hand, and the perception of touch and proprioception in the hands.<br><br>
 
