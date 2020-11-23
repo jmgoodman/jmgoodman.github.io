@@ -4,7 +4,7 @@ navbar:
   title: "James Goodman"
   left:
     - text: "CV"
-      href: files/JMG_CV_2020_11_02.pdf
+      href: files/JMG_CV_2020_11_23.pdf
     - text: "Publications"
       href: pubs.html
     - text: "Conference Presentations"
