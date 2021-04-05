@@ -18,6 +18,15 @@ navbar:
       href: https://scholar.google.com/citations?user=YHyy1UYAAAAJ&hl=en
     - icon: fa-twitter fa-lg
       href: https://twitter.com/jimmy_m_goode
+  
+#     - text: "Twitter"
+#       href: https://twitter.com/jimmy_m_goode
+#     - text: "Google Scholar"
+#       href: https://scholar.google.com/citations?user=YHyy1UYAAAAJ&hl=en
+
+
+
+
 output:
   html_document:
     theme: darkly
