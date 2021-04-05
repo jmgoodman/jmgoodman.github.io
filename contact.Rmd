@@ -10,6 +10,11 @@ output: html_document
 Here's how you can reach out to me:<br><br>
 <br>
 
+
+<h4>E-mail</h4>
+JG<!--rumpel&commat;stiltskin&period;com-->oodm<!--harriet&commat;tubman&period;org-->an&commat;dpz&period;e<!--harrison&commat;ford&period;net-->u<br>
+<br><br>
+
 <h4>Office Mail</h4>
 James Goodman<br>
 Deutsches Primatenzentrum<br>
@@ -22,7 +27,4 @@ Deutschland<br>
 <h4>Office Phone</h4>
 +49 551 3851-425<br>
 <br><br>
-
-<h4>Email</h4>
-JGoodman -at- dpz.eu<br>
 
