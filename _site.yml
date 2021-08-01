@@ -5,6 +5,8 @@ navbar:
   left:
     - text: "CV"
       href: files/JMG_CV.pdf
+    - text: "Ongoing Projects"
+      href: projects.html
     - text: "Publicly Available Data"
       href: pdata.html
     - text: "Publications"
