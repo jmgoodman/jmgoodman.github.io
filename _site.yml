@@ -16,15 +16,19 @@ navbar:
     - text: "Contact"
       href: contact.html
   right:
-    - icon: ai-google-scholar ai-lg
-      href: https://scholar.google.com/citations?user=YHyy1UYAAAAJ&hl=en
-    - icon: fa-twitter fa-lg
-      href: https://twitter.com/jimmy_m_goode
-  
-#     - text: "Twitter"
-#       href: https://twitter.com/jimmy_m_goode
 #     - text: "Google Scholar"
 #       href: https://scholar.google.com/citations?user=YHyy1UYAAAAJ&hl=en
+#     - text: "Twitter"
+#       href: https://twitter.com/jimmy_m_goode
+#     - icon: fa-twitter fa
+#       href: https://twitter.com
+    - icon: ai-google-scholar ai-lg # why does -lg work here...
+      href: https://scholar.google.com/citations?user=YHyy1UYAAAAJ&hl=en
+    - icon: fa-twitter fa # but -lg needed to be deleted here?
+      href: https://twitter.com/jimmy_m_goode
+    - icon: fa-github fa # and here??? UGH what a mess
+      href: https://github.com/jmgoodman
+
 
 
 
