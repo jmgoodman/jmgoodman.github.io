@@ -20,5 +20,5 @@ The grasping data are the same as those used in Goodman et al. 2019 ([link](http
 
 The reaching data are the same as those used in Harpaz et al. 2019 ([link](https://doi.org/10.1093/cercor/bhy060)) and collected by Paulsen, D., Reimer, J., and Haga, Z. under the supervision of Hatsopoulos, N.G.<br>
 
-Please excuse the complicated credit assignment described above. These complications arise from the legitimate realities of sharing data that until time of publication had not been made fully public, particularly when those data were pooled across different research groups, laboratories, and even decades.<br>
+Please excuse the complicated credit assignment described above. These complications arise from the realities of sharing data that were pooled across different research groups, laboratories, and even decades.<br>
 
