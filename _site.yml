@@ -28,6 +28,8 @@ navbar:
       href: https://twitter.com/jimmy_m_goode
     - icon: fa-github fa # and here??? UGH what a mess
       href: https://github.com/jmgoodman
+    - icon: fa-medium fa
+      href: https://james-m-goodman.medium.com/
 
 
 
