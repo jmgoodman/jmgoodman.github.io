@@ -9,8 +9,6 @@ output: html_document
 
 <br>
 <h4>Talks</h4>
-<b>Goodman, J. M.</b>, Schaffelhofer, S., & Scherberger, H. (September 2021). How similar are representations of observed and executed grasps in the frontoparietal cortical grasping network? Virtual Poster. Bernstein Conference, Online. ([link to Bernstein Conference program abstract](https://abstracts.g-node.org/conference/BC21/abstracts#/uuid/04617b1f-94cc-4ae4-bcc7-888e9aa6de7e))<br><br>
-
 <b>Goodman, J. M.</b>, Schaffelhofer, S., & Scherberger, H. (April 2021). Grip-specific neural population dynamics are not shared between action and observation in the
 frontoparietal cortical grasping network. Data Blitz talk. Meeting of the Society for the Neural Control of Movement (NCM), Online. ([abstract](abstract_ncm2021.html)) ([link to conference program, see pp. 30-31](files/NCM2021.pdf)) <br><br>
 
@@ -20,6 +18,10 @@ frontoparietal cortical grasping network. Data Blitz talk. Meeting of the Societ
 <br>
 
 <h4>Posters</h4>
+<b>Goodman, J. M.</b>, Schaffelhofer, S., & Scherberger, H. (November 2021). How similar are representations of observed and executed grasps in the frontoparietal cortical grasping network? Virtual Poster. Society for Neuroscience, Online. [Abstracts of the Society for Neuroscience 50: P555.04] ([link to SfN program abstract](https://www.abstractsonline.com/pp8/#!/10485/presentation/19054))<br><br>
+
+<b>Goodman, J. M.</b>, Schaffelhofer, S., & Scherberger, H. (September 2021). How similar are representations of observed and executed grasps in the frontoparietal cortical grasping network? Virtual Poster. Bernstein Conference, Online. ([link to Bernstein Conference program abstract](https://abstracts.g-node.org/conference/BC21/abstracts#/uuid/04617b1f-94cc-4ae4-bcc7-888e9aa6de7e))<br><br>
+
 <b>Goodman, J. M.</b>, Schaffelhofer, S., & Scherberger, H. (October 2020). Population-level signatures of action and observation in the frontoparietal grasping network. Virtual Poster. Bernstein Conference, Online. ([link to Bernstein Conference program abstract](https://abstracts.g-node.org/conference/BC20/abstracts#/uuid/4edb7e77-9c07-4db7-869b-ebff5ac0d02d))<br><br>
 
 <b>Goodman, J. M.</b>, Lee, A.S., Okorokova, E.V., Suresh, A.K., Hatsopoulos, N.G., & Bensmaia, S.J. (November 2018). Neurons in somatosensory and motor cortices encode hand postures, not joint velocities. Poster. Society for Neuroscience, San Diego, CA [Abstracts of the Society for Neuroscience 48: 310.12] ([link to SfN program abstract](https://www.abstractsonline.com/pp8/#!/4649/presentation/2223))<br><br>
