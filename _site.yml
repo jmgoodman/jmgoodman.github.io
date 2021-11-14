@@ -11,7 +11,7 @@ navbar:
       href: pdata.html
     - text: "Publications"
       href: pubs.html
-    - text: "Presentations"
+    - text: "Research Presentations"
       href: conf.html
     - text: "Lectures"
       href: lectures.html
