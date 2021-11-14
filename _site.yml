@@ -5,14 +5,18 @@ navbar:
   left:
     - text: "CV"
       href: files/JMG_CV.pdf
-    - text: "Ongoing Projects"
+    - text: "Projects"
       href: projects.html
-    - text: "Publicly Available Data"
+    - text: "Data"
       href: pdata.html
     - text: "Publications"
       href: pubs.html
-    - text: "Conference Presentations"
+    - text: "Presentations"
       href: conf.html
+    - text: "Lectures"
+      href: lectures.html
+    - text: "Journal Clubs"
+      href: JC.html
     - text: "Contact"
       href: contact.html
   right:
