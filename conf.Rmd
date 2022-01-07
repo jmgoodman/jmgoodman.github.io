@@ -1,5 +1,5 @@
 ---
-title: "Research Presentations"
+title: "Presentations"
 output: html_document
 ---
 

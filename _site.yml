@@ -11,7 +11,7 @@ navbar:
       href: pdata.html
     - text: "Publications"
       href: pubs.html
-    - text: "Research Presentations"
+    - text: "Presentations" # add your job talks here at some point!!! those *count*, dude!
       href: conf.html
     - text: "Lectures"
       href: lectures.html
@@ -30,6 +30,8 @@ navbar:
       href: https://scholar.google.com/citations?user=YHyy1UYAAAAJ&hl=en
     - icon: fa-twitter fa # but -lg needed to be deleted here?
       href: https://twitter.com/jimmy_m_goode
+    - icon: fa-linkedin fa
+      href: https://www.linkedin.com/in/james-goodman-phd-b1145a18/
     - icon: fa-github fa # and here??? UGH what a mess
       href: https://github.com/jmgoodman
     - icon: fa-medium fa
