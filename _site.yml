@@ -29,7 +29,7 @@ navbar:
     - icon: ai-google-scholar ai-lg # why does -lg work here...
       href: https://scholar.google.com/citations?user=YHyy1UYAAAAJ&hl=en
     - icon: fa-twitter fa # but -lg needed to be deleted here?
-      href: https://twitter.com/jimmy_m_goode
+      href: https://twitter.com/jimmymgoode
     - icon: fa-linkedin fa
       href: https://www.linkedin.com/in/james-goodman-phd/
     - icon: fa-github fa # and here??? UGH what a mess
