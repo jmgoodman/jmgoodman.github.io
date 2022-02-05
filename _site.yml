@@ -31,7 +31,7 @@ navbar:
     - icon: fa-twitter fa # but -lg needed to be deleted here?
       href: https://twitter.com/jimmy_m_goode
     - icon: fa-linkedin fa
-      href: https://www.linkedin.com/in/james-goodman-phd-b1145a18/
+      href: https://www.linkedin.com/in/james-goodman-phd/
     - icon: fa-github fa # and here??? UGH what a mess
       href: https://github.com/jmgoodman
     - icon: fa-medium fa
