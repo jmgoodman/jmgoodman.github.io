@@ -6,6 +6,9 @@ output: html_document
 <link rel="stylesheet" href="styles.css" type="text/css">
 <link rel="stylesheet" href="./css/academicons.min.css"/>
 
+<br>
+[Discussion of "Hierarchical organization of rhesus macaque behavior", Voloh et al., 2022, *bioRxiv* preprint | 08 March 2022 | Neurobiology Lab Journal Club | German Primate Center](files/JC-presentations/DPZ-NBL-JC-08-03-2022.pdf) ([Link to preprint](https://www.biorxiv.org/content/10.1101/2021.11.15.468721v1))
+<br>
 
 <br>
 [Executive summary of Neuromatch Deep Learning Summer School August 2021 | 05 October 2021 | Neurobiology Lab Journal Club | German Primate Center](files/JC-presentations/Neuromatch-Executive-Summary_05102021.pdf) ([Link to course materials](deeplearning.neuromatch.io))

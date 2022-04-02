@@ -9,7 +9,7 @@ navbar:
       href: projects.html
     - text: "Data"
       href: pdata.html
-    - text: "Publications"
+    - text: "Pubs"
       href: pubs.html
     - text: "Presentations" # add your job talks here at some point!!! those *count*, dude!
       href: conf.html
@@ -36,8 +36,8 @@ navbar:
       href: https://github.com/jmgoodman
     - icon: fa-medium fa
       href: https://james-m-goodman.medium.com/
-
-
+    - icon: ai-researchgate ai-lg
+      href: https://www.researchgate.net/profile/James-Goodman-18
 
 
 
