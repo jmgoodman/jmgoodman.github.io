@@ -74,7 +74,7 @@ Deutschland<br>
     <input type="text" id="email" name="email" placeholder="itsame@mario.it">
 
     <label for="message">Message</label>
-    <textarea id="mesasge" name="message" placeholder="Write something..." style="height:200px"></textarea>
+    <textarea id="mesasge" name="message" placeholder="Yahoo!" style="height:200px"></textarea>
     
     <!-- your other form fields go here -->
     <button type="submit">Send</button>
