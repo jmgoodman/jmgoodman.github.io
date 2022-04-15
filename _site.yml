@@ -9,14 +9,12 @@ navbar:
       href: projects.html
     - text: "Data"
       href: pdata.html
-    - text: "Pubs"
+    - text: "Publications"
       href: pubs.html
-    - text: "Presentations" # add your job talks here at some point!!! those *count*, dude!
+    - text: "Presentations"
       href: conf.html
-    - text: "Lectures"
-      href: lectures.html
-    - text: "Journal Clubs"
-      href: JC.html
+    - text: "Press"
+      href: press.html
     - text: "Contact"
       href: contact.html
   right:
@@ -29,15 +27,15 @@ navbar:
     - icon: ai-google-scholar ai-lg # why does -lg work here...
       href: https://scholar.google.com/citations?user=YHyy1UYAAAAJ&hl=en
     - icon: fa-twitter fa # but -lg needed to be deleted here?
-      href: https://twitter.com/jimmymgoode
+      href: https://twitter.com/jimmy_m_goode
     - icon: fa-linkedin fa
-      href: https://www.linkedin.com/in/james-goodman-phd/
+      href: https://www.linkedin.com/in/james-goodman-phd-b1145a18/
     - icon: fa-github fa # and here??? UGH what a mess
       href: https://github.com/jmgoodman
     - icon: fa-medium fa
       href: https://james-m-goodman.medium.com/
-    - icon: ai-researchgate ai-lg
-      href: https://www.researchgate.net/profile/James-Goodman-18
+
+
 
 
 

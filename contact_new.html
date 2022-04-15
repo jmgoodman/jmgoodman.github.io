@@ -11,7 +11,7 @@
 
 
 
-<title>research.utf8</title>
+<title>Contact</title>
 
 <script src="site_libs/header-attrs-2.7/header-attrs.js"></script>
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
@@ -306,13 +306,57 @@ $(document).ready(function () {
 
 
 
+<h1 class="title toc-ignore">Contact</h1>
 
 </div>
 
 
-<p><link rel="stylesheet" href="styles.css" type="text/css"></p>
-<p>A full list of my publications is available on <a href="https://scholar.google.com/citations?hl=en&amp;user=YHyy1UYAAAAJ">Google scholar</a>.</p>
-<p>My CV is also available for download <a href="files/JMG_CV_2020_04_15.pdf">here.</a></p>
+<!--https://www.w3schools.com/howto/howto_css_contact_form.asp-->
+<p><link rel="stylesheet" href="styles.css" type="text/css"> <link rel="stylesheet" href="./css/academicons.min.css"/></p>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+}
+
+.container {
+  border-radius: 5px;
+  padding: 20px;
+}
+</style>
+</head>
+<body>
+<div class="container">
+<form action="/action_page.php">
+<p><label for="theirname">Name</label> <input type="text" id="fname" name="theirname" placeholder="Your name..."></p>
+<p><label for="lname">Last Name</label> <input type="text" id="lname" name="lastname" placeholder="Your last name..."></p>
+<p><label for="country">Country</label> <select id="country" name="country"> <option value="australia">Australia</option> <option value="canada">Canada</option> <option value="usa">USA</option> </select></p>
+<label for="subject">Subject</label>
+<textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+<input type="submit" value="Submit">
+</form>
+</div>
+</body>
 
 
 
