@@ -36,10 +36,13 @@ button[type=submit] {
 button[type=submit]:hover {
 }
 
+<!--Commented to avoid overwriting the style keeping the top bar in check-->
+<!--
 .container {
   border-radius: 5px;
   padding: 20px;
 }
+-->
 </style>
 </head>
 
