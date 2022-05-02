@@ -54,7 +54,7 @@ button[type=submit]:hover {
     <br>
     <input type="text" id="email" name="email" placeholder="itsame@mario.it"><br>
 
-    <label for="message">Message</label>
+    <label for="message">Your message:</label>
     <br>
     <textarea id="mesasge" name="message" placeholder="Yahoo!" style="height:200px"></textarea>
     <br>
