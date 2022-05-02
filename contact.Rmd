@@ -48,8 +48,6 @@ button[type=submit]:hover {
 
 <body>
 <br>
-<h4>Contact Form</h4>
-<br>
 <div class="container">
   <form action="https://formspree.io/f/xjvlaakl" method="POST">
     <label for="email">Your email:</label>
