@@ -1,6 +1,0 @@
----
-output: html_document
----
-
-<link rel="shortcut icon" href="favicon.ico" />
-

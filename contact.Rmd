@@ -16,7 +16,7 @@ body {font-family: Arial, Helvetica, sans-serif;}
 * {box-sizing: border-box;}
 
 input[type=text], select, textarea {
-  width: 100%;
+  width: 75%;
   padding: 12px;
   border-radius: 4px;
   box-sizing: border-box;
@@ -44,10 +44,25 @@ button[type=submit]:hover {
 </head>
 
 <body>
+<br>
+<h4>Contact Form</h4>
 
-<br>
-Here's how you can reach out to me:<br><br>
-<br>
+<div class="container">
+  <form action="https://formspree.io/f/xjvlaakl" method="POST">
+    <label for="email">Your email:</label>
+    <br>
+    <input type="text" id="email" name="email" placeholder="itsame@mario.it">
+
+    <label for="message">Message</label>
+    <br>
+    <textarea id="mesasge" name="message" placeholder="Yahoo!" style="height:200px"></textarea>
+    <br>
+    <!-- your other form fields go here -->
+    <button type="submit">Send</button>
+  </form>
+</div><br>
+
+<hr>
 
 <h4>E-mail</h4>
 JG<!--rumpel&commat;stiltskin&period;com-->oodm<!--harriet&commat;tubman&period;org-->an&commat;dpz&period;e<!--harrison&commat;ford&period;net-->u<br>
@@ -65,20 +80,5 @@ Deutschland<br>
 <h4>Office Phone</h4>
 +49 551 3851-425<br>
 <br><br>
-
-<h4>Contact Form</h4>
-
-<div class="container">
-  <form action="https://formspree.io/f/xjvlaakl" method="POST">
-    <label for="email">Your email:</label>
-    <input type="text" id="email" name="email" placeholder="itsame@mario.it">
-
-    <label for="message">Message</label>
-    <textarea id="mesasge" name="message" placeholder="Yahoo!" style="height:200px"></textarea>
-    
-    <!-- your other form fields go here -->
-    <button type="submit">Send</button>
-  </form>
-</div>
 
 </body>
