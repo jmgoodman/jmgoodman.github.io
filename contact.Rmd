@@ -52,11 +52,11 @@ button[type=submit]:hover {
   <form action="https://formspree.io/f/xjvlaakl" method="POST">
     <label for="email">Your email:</label>
     <br>
-    <input type="text" id="email" name="email" placeholder="itsame@mario.it"><br>
+    <input type="text" id="email" name="email" placeholder="person@domain.com"><br>
 
     <label for="message">Your message:</label>
     <br>
-    <textarea id="mesasge" name="message" placeholder="Yahoo!" style="height:200px"></textarea>
+    <textarea id="mesasge" name="message" placeholder="Write your message here!" style="height:200px"></textarea>
     <br>
     <!-- your other form fields go here -->
     <button type="submit">Send</button>
