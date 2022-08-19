@@ -5,8 +5,8 @@ navbar:
   left:
     - text: "CV"
       href: files/JMG_CV.pdf
-    - text: "Projects"
-      href: projects.html
+#    - text: "Projects" # excluded until / unless I get my act together and make this a genuinely appealing page...
+#      href: projects.html # frankly this goes for my homepage as well... 
     - text: "Data"
       href: pdata.html
     - text: "Publications"

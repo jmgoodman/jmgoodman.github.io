@@ -12,6 +12,8 @@ output: html_document
 <br>
 I am currently a computational neuroscientist using machine learning to study how the brain controls the movements of our hands and how it processes sensory information relating to those movements. My research to date has had an eye toward providing insights that guide the development of brain-computer interfaces.<br><br>
 
+I am currently looking for work in data science and machine learning engineering roles! Check out my [LinkedIn profile](https://www.linkedin.com/in/james-goodman-phd-b1145a18/).<br><br>
+
 I work as a post-doctoral researcher at the [German Primate Center](https://www.dpz.eu/en/home.html) (Deutsches Primatenzentrum) in the Neurobiology Laboratory headed by [Hans Scherberger](https://www.dpz.eu/en/unit/neurobiology.html). My current projects are listed [here](projects.html), but to summarize: I am currently studying the topic of motor simulation, that is, the putative replay of movement-related activity patterns that can occur even when we don't move. I am also involved in a project to demonstrate a closed-loop brain-computer interface in non-human primates.<br><br>
 
 I received my Ph.D. in Computational Neuroscience in December 2018 from the University of Chicago, where I worked in the laboratory headed by [Sliman Bensmaia](http://bensmaialab.org/). I studied grasping, the cortical signals related to proprioception and motor control of the hand, and the perception of touch and proprioception in the hands.<br><br>
