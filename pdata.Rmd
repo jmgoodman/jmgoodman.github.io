@@ -1,10 +1,14 @@
 ---
-title: "Publicly Available Data"
+title: "Thesis Data (for the people)"
 output: html_document
 ---
 
 <link rel="stylesheet" href="styles.css" type="text/css">
 <link rel="stylesheet" href="./css/academicons.min.css"/>
+
+<br>
+-->[Link to the Dryad dataset](https://doi.org/10.5061/dryad.xsj3tx9cm)<--
+<br>
 
 <br>
 The following is a reference to the public dataset consisting primarily of the data that I recorded for my doctoral thesis. These comprise electrophysiology data from the primary motor and somatosensory cortices in addition to simultaneously tracked hand kinematic data. These data were uploaded to Dryad and can be downloaded [here](https://doi.org/10.5061/dryad.xsj3tx9cm). These data may be of interest to you if you are studying hand kinematics, the neural basis of proprioception, or the neural control of movement, particularly in the context of grasping or reaching. These data should be reasonably well annotated, but I don't doubt some questions will arise. When they do, feel free to [reach out](contact.html)!<br><br>
