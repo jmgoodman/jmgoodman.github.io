@@ -63,23 +63,5 @@ button[type=submit]:hover {
   </form>
 </div><br>
 
-<hr>
-
-<h4>E-mail</h4>
-JG<!--rumpel&commat;stiltskin&period;com-->oodm<!--harriet&commat;tubman&period;org-->an&commat;dpz&period;e<!--harrison&commat;ford&period;net-->u<br>
-<br><br>
-
-<h4>Office Mail</h4>
-James Goodman<br>
-Deutsches Primatenzentrum<br>
-Abteilung Neurobiologie<br>
-Kellnerweg 4<br>
-37077 Göttingen<br>
-Deutschland<br>
-<br><br>
-
-<h4>Office Phone</h4>
-+49 551 3851-425<br>
-<br><br>
 
 </body>

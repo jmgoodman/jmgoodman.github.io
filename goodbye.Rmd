@@ -1,0 +1,11 @@
+---
+title: "On Sliman's death"
+subtitle: ""
+date: "2023-08-13"
+output: html_document
+---
+
+> My mind's still churning over the recent death of my Ph.D. advisor, Sliman Bensmaia. A small part of me still thinks this is all an elaborate scheme to take the piss out of him. He was a big part of my life for the better part of a decade, and his death certainly leaves a huge hole in many others'.<br><br>
+It's hitting me in waves, rather than like a big old freight truck, because we had frankly drifted apart over the years. Partly because I've always been a bit of an odd loner type, partly because, frankly, of some distaste I had for the recklessness with which he wielded his position of authority.<br><br>
+Despite his flaws, he certainly took his work and supporting his trainees very seriously, even if it did cause some friction. On the whole, I appreciated that. He could also be very non-judgmental when he wanted to be. I liked that about him. And, of course, he was always the life of the party.<br><br>
+I'll miss you, Sliman.
