@@ -1,391 +1,188 @@
 <!DOCTYPE html>
-
-<html>
+<html lang="en">
 
 <head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-<meta charset="utf-8" />
-<meta name="generator" content="pandoc" />
-<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+  <title>James Goodman</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
 
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <link rel="icon" type="image/png" sizes="192x192"  href="assets/img/android-icon.png">
 
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
 
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
-<title>James Goodman</title>
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
 
-<script src="site_libs/header-attrs-2.23/header-attrs.js"></script>
-<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
-<meta name="viewport" content="width=device-width, initial-scale=1" />
-<link href="site_libs/bootstrap-3.3.5/css/darkly.min.css" rel="stylesheet" />
-<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
-<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
-<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
-<style>h1 {font-size: 34px;}
-       h1.title {font-size: 38px;}
-       h2 {font-size: 30px;}
-       h3 {font-size: 24px;}
-       h4 {font-size: 18px;}
-       h5 {font-size: 16px;}
-       h6 {font-size: 12px;}
-       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
-       pre:not([class]) { background-color: white }</style>
-<script src="site_libs/navigation-1.1/tabsets.js"></script>
-<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
-<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
-<link href="site_libs/font-awesome-6.4.0/css/all.min.css" rel="stylesheet" />
-<link href="site_libs/font-awesome-6.4.0/css/v4-shims.min.css" rel="stylesheet" />
-<link rel="shortcut icon" href="favicon.ico" />
-
-<style type="text/css">
-  code{white-space: pre-wrap;}
-  span.smallcaps{font-variant: small-caps;}
-  span.underline{text-decoration: underline;}
-  div.column{display: inline-block; vertical-align: top; width: 50%;}
-  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
-  ul.task-list{list-style: none;}
-    </style>
-
-<style type="text/css">code{white-space: pre;}</style>
-<script type="text/javascript">
-if (window.hljs) {
-  hljs.configure({languages: []});
-  hljs.initHighlightingOnLoad();
-  if (document.readyState && document.readyState === "complete") {
-    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
-  }
-}
-</script>
-
-
-
-
-
-
-<link rel="stylesheet" href="styles.css" type="text/css" />
-
-
-
-<style type = "text/css">
-.main-container {
-  max-width: 940px;
-  margin-left: auto;
-  margin-right: auto;
-}
-img {
-  max-width:100%;
-}
-.tabbed-pane {
-  padding-top: 12px;
-}
-.html-widget {
-  margin-bottom: 20px;
-}
-button.code-folding-btn:focus {
-  outline: none;
-}
-summary {
-  display: list-item;
-}
-details > summary > p:only-child {
-  display: inline;
-}
-pre code {
-  padding: 0;
-}
-</style>
-
-
-<style type="text/css">
-.dropdown-submenu {
-  position: relative;
-}
-.dropdown-submenu>.dropdown-menu {
-  top: 0;
-  left: 100%;
-  margin-top: -6px;
-  margin-left: -1px;
-  border-radius: 0 6px 6px 6px;
-}
-.dropdown-submenu:hover>.dropdown-menu {
-  display: block;
-}
-.dropdown-submenu>a:after {
-  display: block;
-  content: " ";
-  float: right;
-  width: 0;
-  height: 0;
-  border-color: transparent;
-  border-style: solid;
-  border-width: 5px 0 5px 5px;
-  border-left-color: #cccccc;
-  margin-top: 5px;
-  margin-right: -10px;
-}
-.dropdown-submenu:hover>a:after {
-  border-left-color: #adb5bd;
-}
-.dropdown-submenu.pull-left {
-  float: none;
-}
-.dropdown-submenu.pull-left>.dropdown-menu {
-  left: -100%;
-  margin-left: 10px;
-  border-radius: 6px 0 6px 6px;
-}
-</style>
-
-<script type="text/javascript">
-// manage active state of menu based on current page
-$(document).ready(function () {
-  // active menu anchor
-  href = window.location.pathname
-  href = href.substr(href.lastIndexOf('/') + 1)
-  if (href === "")
-    href = "index.html";
-  var menuAnchor = $('a[href="' + href + '"]');
-
-  // mark the anchor link active (and if it's in a dropdown, also mark that active)
-  var dropdown = menuAnchor.closest('li.dropdown');
-  if (window.bootstrap) { // Bootstrap 4+
-    menuAnchor.addClass('active');
-    dropdown.find('> .dropdown-toggle').addClass('active');
-  } else { // Bootstrap 3
-    menuAnchor.parent().addClass('active');
-    dropdown.addClass('active');
-  }
-
-  // Navbar adjustments
-  var navHeight = $(".navbar").first().height() + 15;
-  var style = document.createElement('style');
-  var pt = "padding-top: " + navHeight + "px; ";
-  var mt = "margin-top: -" + navHeight + "px; ";
-  var css = "";
-  // offset scroll position for anchor links (for fixed navbar)
-  for (var i = 1; i <= 6; i++) {
-    css += ".section h" + i + "{ " + pt + mt + "}\n";
-  }
-  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
-  document.head.appendChild(style);
-});
-</script>
-
-<!-- tabsets -->
-
-<style type="text/css">
-.tabset-dropdown > .nav-tabs {
-  display: inline-table;
-  max-height: 500px;
-  min-height: 44px;
-  overflow-y: auto;
-  border: 1px solid #ddd;
-  border-radius: 4px;
-}
-
-.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
-  content: "\e259";
-  font-family: 'Glyphicons Halflings';
-  display: inline-block;
-  padding: 10px;
-  border-right: 1px solid #ddd;
-}
-
-.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
-  content: "\e258";
-  font-family: 'Glyphicons Halflings';
-  border: none;
-}
-
-.tabset-dropdown > .nav-tabs > li.active {
-  display: block;
-}
-
-.tabset-dropdown > .nav-tabs > li > a,
-.tabset-dropdown > .nav-tabs > li > a:focus,
-.tabset-dropdown > .nav-tabs > li > a:hover {
-  border: none;
-  display: inline-block;
-  border-radius: 4px;
-  background-color: transparent;
-}
-
-.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
-  display: block;
-  float: none;
-}
-
-.tabset-dropdown > .nav-tabs > li {
-  display: none;
-}
-</style>
-
-<!-- code folding -->
-
-
-
-
+  <!-- =======================================================
+  * Template Name: iPortfolio
+  * Updated: May 30 2023 with Bootstrap v5.3.0
+  * Template URL: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
 </head>
 
 <body>
 
+  <!-- ======= Mobile nav toggle button ======= -->
+  <i class="bi bi-list mobile-nav-toggle d-xl-none"></i>
 
-<div class="container-fluid main-container">
+  <!-- ======= Header ======= -->
+  <header id="header">
+    <div class="d-flex flex-column">
 
+      <div class="profile">
+        <img src="assets/img/profile-img.jpg" alt="" class="img-fluid rounded-circle">
+        <h1 class="text-light"><a href="index.html">James Goodman</a></h1>
+        <div class="social-links mt-3 text-center">
+          <a href="https://www.linkedin.com/in/james-goodman-phd/" class="linkedin" target="_blank"><i class="bx bxl-linkedin"></i></a>
+        </div>
+      </div>
 
-
-
-<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
-  <div class="container">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="index.html">James Goodman</a>
+      <nav id="navbar" class="nav-menu navbar">
+        <ul>
+          <li><a href="#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Home</span></a></li>
+          <li><a href="#about" class="nav-link scrollto"><i class="bx bx-user"></i> <span>About</span></a></li>
+          <!--<li><a href="#resume" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>Resume</span></a></li>-->
+          <!--<li><a href="#portfolio" class="nav-link scrollto"><i class="bx bx-book-content"></i> <span>Portfolio</span></a></li>-->
+          <!--<li><a href="#services" class="nav-link scrollto"><i class="bx bx-server"></i> <span>Services</span></a></li>-->
+          <li><a href="#contact" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>Contact</span></a></li>
+        </ul>
+      </nav><!-- .nav-menu -->
     </div>
-    <div id="navbar" class="navbar-collapse collapse">
-      <ul class="nav navbar-nav">
-        <li>
-  <a href="files/JMG_CV.pdf">CV</a>
-</li>
-<li>
-  <a href="pdata.html">Data</a>
-</li>
-<li>
-  <a href="pubs.html">Publications</a>
-</li>
-<li>
-  <a href="conf.html">Presentations</a>
-</li>
-<li>
-  <a href="press.html">Press</a>
-</li>
-<li>
-  <a href="contact.html">Contact</a>
-</li>
-      </ul>
-      <ul class="nav navbar-nav navbar-right">
-        <li>
-  <a href="https://scholar.google.com/citations?user=YHyy1UYAAAAJ&amp;hl=en">
-    <span class="ai ai-google-scholar ai-lg"></span>
-     
-  </a>
-</li>
-<li>
-  <a href="https://twitter.com/jimmymgoode">
-    <span class="fa fa-twitter fa"></span>
-     
-  </a>
-</li>
-<li>
-  <a href="https://www.linkedin.com/in/james-goodman-phd/">
-    <span class="fa fa-linkedin fa"></span>
-     
-  </a>
-</li>
-<li>
-  <a href="https://github.com/jmgoodman">
-    <span class="fa fa-github fa"></span>
-     
-  </a>
-</li>
-<li>
-  <a href="https://james-m-goodman.medium.com/">
-    <span class="fa fa-medium fa"></span>
-     
-  </a>
-</li>
-      </ul>
-    </div><!--/.nav-collapse -->
-  </div><!--/.container -->
-</div><!--/.navbar -->
+  </header><!-- End Header -->
 
-<div id="header">
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="d-flex flex-column justify-content-center align-items-center">
+    <div class="hero-container" data-aos="fade-in">
+      <h1>James Goodman</h1>
+      <p>I'm <span class="typed" data-typed-items="a Developer, a Data Expert, a Scientist, a Puzzle Solver, a Lifelong Learner"></span></p>
+    </div>
+  </section><!-- End Hero -->
 
+  <main id="main">
 
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about">
+      <div class="container">
 
-<h1 class="title toc-ignore">James Goodman</h1>
+        <div class="section-title">
+          <h2>About</h2>
+          <p>
+            I studied neuroscience for 10 years, keen on basic research toward technologies to assist those with paralysis.
+            <br/>
+            <br/>
+          </p>
 
-</div>
+          <p>
+            Now, I've re-specced professionally and am currently working as a backend engineer. 
+            <br/>
+          </p>
+        </div>
 
+        <div class="row">
+          <div class="col-lg-2" data-aos="fade-right">
+            <img src="assets/img/work-profile-img.jpg" class="img-fluid rounded" alt="">
+          </div>
+          <div class="col-lg-10 pt-4 pt-lg-0 content" data-aos="fade-left">
+            <h3>Backend Engineer</h3>
+            <p class="fst-italic">
+              A scientist-turned-developer. More details on my <a href="https://www.linkedin.com/in/james-goodman-phd/">LinkedIn</a> profile.
+            </p>
+            <div class="row">
+              <div class="col-lg-5">
+                <ul>
+                  <li><i class="bi bi-chevron-right"></i> <strong>🥳 Birthday:</strong> <span>10 March 1990</span></li>
+                  <!--<li><i class="bi bi-chevron-right"></i> <strong>Website:</strong> <span>www.example.com</span></li>-->
+                  <li><i class="bi bi-chevron-right"></i> <strong>📱 Phone:</strong> <span>+49 1516 4054892</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>🏙️ City:</strong> <span>Munich, Germany</span></li>
+                </ul>
+              </div>
+              <div class="col-lg-7">
+                <ul>
+                  <li><i class="bi bi-chevron-right"></i> <strong>👴 Age:</strong> <span>33</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>🎓 Degree:</strong> <span>Ph.D., Computational Neuroscience</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>📧 E-mail:</strong> <span>james.goodman.swe@gmail.com</span></li>
+                  <!--<li><i class="bi bi-chevron-right"></i> <strong>Freelance:</strong> <span>Available</span></li>-->
+                </ul>
+              </div>
+            </div>
+            <p>
+              In addition to my current role, I also have training and competence in the realms of machine learning, the science of sensation and perception, and EMG recordings.
+              <br/>
+            </p>
+            <p>
+              You can take a peek at my previous life as an academic <a href="index_legacy.html">here</a>.
+            </p>
+          </div>
+        </div>
 
-<p><link rel="stylesheet" href="styles.css" type="text/css">
-<link rel="stylesheet" href="./css/academicons.min.css"/></p>
-<!--<img src="images/two-yellow-labrador-retriever-puppies-1108099.jpg" style="width:40%; border:10px solid; margin-right: 20px" align="left">-->
-<blockquote>
-<p>I am now a software developer and am no longer working as an academic
-neuroscientist. This page is left up as an archive. For a more
-up-to-date career profile, visit my <a
-href="https://www.linkedin.com/in/james-goodman-phd/">LinkedIn
-profile</a>.</p>
-</blockquote>
-<p>I worked as a post-doctoral researcher at the <a
-href="https://www.dpz.eu/en/home.html">German Primate Center</a>
-(Deutsches Primatenzentrum) in the Neurobiology Laboratory headed by <a
-href="https://www.dpz.eu/en/unit/neurobiology.html">Hans
-Scherberger</a>. My current projects are listed <a
-href="projects.html">here</a>, but to summarize: I studied the topic of
-motor simulation, that is, the putative replay of movement-related
-activity patterns that can occur even when we don’t move. I was involved
-in a project to demonstrate a closed-loop brain-computer interface in
-non-human primates.<br><br></p>
-<p>I received my Ph.D. in Computational Neuroscience in December 2018
-from the University of Chicago, where I worked in the laboratory headed
-by <a href="http://bensmaialab.org/">Sliman Bensmaia</a>. I studied
-grasping, the cortical signals related to proprioception and motor
-control of the hand, and the perception of touch and proprioception in
-the hands.<br><br></p>
-<p>I graduated from Drexel University in 2013 with a BS and MS in
-Biomedical Engineering. There, I worked in the laboratory headed by <a
-href="https://moxonlab.bme.ucdavis.edu/">Karen Moxon</a> (currently UC
-Davis) on the feasibility of using epidural spinal cord stimulation in
-brain-computer interface applications.</p>
+      </div>
+    </section><!-- End About Section -->
 
+    <!-- ======= Contact Section (embed a google form here) ======= -->
+    <section id="contact" class="contact">
+      <div class="container">
 
+        <div class="section-title">
+          <h2>Contact</h2>
+          <p>Please direct any inquiries to the Google Form below:</p>
+        </div>
 
+        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScLYF4y1hhVFY62lgxe55cDR1g2gYh1Km7nWRv90-_JVsqVZA/viewform?embedded=true" width="640" height="1072" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
 
-</div>
+      </div>
+    </section><!-- End Contact Section -->
 
-<script>
+  </main><!-- End #main -->
 
-// add bootstrap table styles to pandoc tables
-function bootstrapStylePandocTables() {
-  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
-}
-$(document).ready(function () {
-  bootstrapStylePandocTables();
-});
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong><span>iPortfolio</span></strong>
+      </div>
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you purchased the pro version. -->
+        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/ -->
+        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+      </div>
+    </div>
+  </footer><!-- End  Footer -->
 
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
-</script>
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/typed.js/typed.umd.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
 
-<!-- tabsets -->
-
-<script>
-$(document).ready(function () {
-  window.buildTabsets("TOC");
-});
-
-$(document).ready(function () {
-  $('.tabset-dropdown > .nav-tabs > li').click(function () {
-    $(this).parent().toggleClass('nav-tabs-open');
-  });
-});
-</script>
-
-<!-- code folding -->
-
-
-<!-- dynamically load mathjax for compatibility with self-contained -->
-<script>
-  (function () {
-    var script = document.createElement("script");
-    script.type = "text/javascript";
-    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
-    document.getElementsByTagName("head")[0].appendChild(script);
-  })();
-</script>
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
 
 </body>
+
 </html>
